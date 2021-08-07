@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Rubik's Cube",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLGsIHqEcoEghoodZSzZvxIW7nxZ3sqkzBw&usqp=CAU",
+      "price": 129
+    },
+    {
+      "id": 2,
+      "name": "World Atlas",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp14tcSf-0zbN3HpP_yIWf5YWx_wpo6thu88bRe24QD3vvumKx-br2TPnp_7WeY5Xv_Is-BZEz&usqp=CAc",
+      "price": 229
+    },
+    {
+      "id": 3,
+      "name": "Tetris Puzzle",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQQqKz_lOfbrT0UniqNI3qeN6ka37j637qm-OYP-7zpx12YcrmxCpdpIgYv8E&usqp=CAc",
+      "price": 199
+    },
+    {
+      "id": 4,
+      "name": "Jungle Jigsaw",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBdMoLY_hsQDzmQbX6bOTWBrLQuJPfMeEz267YWeQ8wozRNAN3pQAg_RmlRDBVsuZVO3pSpD_i&usqp=CAc",
+      "price": 419
+    },
+    {
+      "id": 5,
+      "name": "Rubik's Cube",
+      "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQSpHQ6cX-os5q4PYBeYLrFLA4H1M8SGMGbduaJpI4d5JsWQB-tfTLgbL8JBcXVIv4HzfnRk&usqp=CAc",
+      "price": 159
+    },
+    {
+      "id": 6,
+      "name": "4-Puzzle Set",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk4H-D-y6vvDCRwB_yICtp7HqU8INmIFGZYN1wDrw0O2MXrbjLSW-__ktI_ZDi1e0Fr_jfsGtz&usqp=CAc",
+      "price": 329
+    },
+    {
+      "id": 7,
+      "name": "Rubik's Cube",
+      "description": "autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6uHCmOcys4ZF0MVRUJ85FURhD895NW9lCx_-wtUySJLD9ey1IkJ9ZAl8o5Zh3zUzgdseBrB4&usqp=CAc",
+      "price": 399
+    }
+  ],
+  "cart": [
+    {
+      "product": {
+        "id": 3,
+        "name": "Tetris Puzzle",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQQqKz_lOfbrT0UniqNI3qeN6ka37j637qm-OYP-7zpx12YcrmxCpdpIgYv8E&usqp=CAc",
+        "price": 199
+      },
+      "id": 27
+    },
+    {
+      "product": {
+        "id": 6,
+        "name": "4-Puzzle Set",
+        "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk4H-D-y6vvDCRwB_yICtp7HqU8INmIFGZYN1wDrw0O2MXrbjLSW-__ktI_ZDi1e0Fr_jfsGtz&usqp=CAc",
+        "price": 329
+      },
+      "id": 29
+    },
+    {
+      "product": {
+        "id": 5,
+        "name": "Rubik's Cube",
+        "description": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjQSpHQ6cX-os5q4PYBeYLrFLA4H1M8SGMGbduaJpI4d5JsWQB-tfTLgbL8JBcXVIv4HzfnRk&usqp=CAc",
+        "price": 159
+      },
+      "id": 30
+    },
+    {
+      "product": {
+        "id": 1,
+        "name": "Rubik's Cube",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLGsIHqEcoEghoodZSzZvxIW7nxZ3sqkzBw&usqp=CAU",
+        "price": 129
+      },
+      "id": 49
+    }
+  ],
+  "wishlist": [
+    {
+      "id": 2
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

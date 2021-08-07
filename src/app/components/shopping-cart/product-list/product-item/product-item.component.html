@@ -1,0 +1,20 @@
+<div class="card mb-4 box-shadow">
+  <img [src]="productItem.imageUrl" class="card-img-top" alt="rubik's cube">
+  <div class="card-body">
+    <p class="card-text">
+      <strong>{{ productItem.price | currency:"INR"}}</strong>
+      <i class="fas fa-heart float-right" title="Remove from wishlist" 
+      *ngIf="addedToWishlist" (click)="handleRemoveFromWishlist()"></i>
+      <i class="far fa-heart float-right" title="Add to wishlist" *ngIf="!addedToWishlist" 
+      (click)="handleAddToWishlist()"></i>
+    </p>
+    <p class="card-text">{{ productItem.description | slice : 0:60}}...</p>
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="btn-group">
+        <button type="button" class="btn btn-sm btn-primary"
+        (click)="handleAddToCart()">Add to cart</button>
+        <button type="button" class="btn btn-sm btn-outline-secondary">View Details</button>
+      </div>
+    </div>
+  </div>
+</div>
